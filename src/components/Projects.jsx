@@ -8,6 +8,10 @@ class Projects extends React.Component {
         <div className='projectThings'>
           <h5>Harbour</h5>
           <img className='projects' src="https://i.imgur.com/8kbGV5x.png" alt="harbour" />
+          <div class="middle">
+            <div class="text">John Doe</div>
+          </div>
+
           <a className='porfolioText' href='www.harbour.surge.sh'>Visit the site</a>
           <a className='porfolioText' href='https://github.com/jascarpentier/harbour'>View on github</a>
           <h5>Cara Mia</h5>

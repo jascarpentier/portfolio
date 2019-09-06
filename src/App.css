@@ -20,3 +20,8 @@ nav {
 .projects { 
   width: 700px;
 }
+
+.projects:hover {
+  opacity: 0.3;
+
+}
