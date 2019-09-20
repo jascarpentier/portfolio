@@ -5,8 +5,9 @@ class About extends React.Component {
   render() {
     return (
       <div className='aboutMe'>
-        <h1>hello</h1>
-        <img className="headerPhoto" src="https://i.imgur.com/CYWWQCK.jpg" alt="header" />
+        <h1>Jasmine Carpentier</h1>
+
+
         <Header />
       </div >
     )

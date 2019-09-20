@@ -13,13 +13,21 @@ nav {
 }
 
 .headerPhoto { 
-  height: 600px;
-  width: 500px;
+  padding-top: 100px;
+  height: 400px;
+  width: 350px;
 }
 
 .projectThings {
   position: relative;
   width: 50%;
+}
+
+.projectStuff {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects { 
@@ -57,3 +65,139 @@ nav {
   transition: .5s ease;
   background-color: rgb(230, 237, 240);
 }
+
+.iconSkills { 
+  width: 100px;
+  height: 50%;
+  /* display: flex;
+  flex-direction: row; */
+  padding: 10px 20px 10px 20px;
+}
+
+.porfolioText {
+  text-decoration: none;
+  color: black;
+  margin: 20px 20px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.porjectLinks {
+margin: 10px 10px;
+}
+
+.projectH1 {
+  font-size: 30px;
+}
+
+.footerStuff {
+  margin-top: 30px;
+}
+
+input#fname {
+  width: 55%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input#email {
+  width: 55%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea#subject {
+  width: 55%;
+  height: 100px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(164, 147, 128);
+  color: white;
+  padding: 20px 38px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+  } 
+  
+  input[type=submit]:hover {
+  background-color: rgb(169, 135, 121);
+  }
+
+  /* #contact-me { 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  } */
+
+  label { 
+    display: none;
+    
+  }
+
+  .socialLinks {
+    text-decoration: none;
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    color: black;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .socialLinks:hover {
+   color: grey;
+   text-decoration: underline;
+  }
+
+  #hero-photo { 
+    position: absolute;  
+    z-index: -1; 
+    width: 100%;
+    height: 100vh;
+    background: url(https://i.imgur.com/JijNmjv.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+
+  .contactH1 { 
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    text-emphasis: bold;
+    margin-bottom: 60px;
+  }
+
+
+  /* .Contact-me {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .aboutText {
+    display: flex;
+  }
+
