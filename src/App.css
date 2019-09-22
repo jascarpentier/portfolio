@@ -1,21 +1,77 @@
 .App {
   text-align: center;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* background-color: #F2F2F2; */
 }
 
-nav a {
+html { 
+  width: 100vw; 
+}
+
+nav ul { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0;
+  overflow: hidden;
+  float:left;
+  justify-content: space-between;
+}
+
+   nav li { 
+  margin: 15px;
+} 
+
+  li a { 
+  display: block; 
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 
-nav { 
-  display: flex;
-  justify-content: space-evenly;
+ li a:hover,
+a:focus {
+  color:#696969;
 }
+
+
+  nav {
+  display: flex;
+ justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 55px;
+  /* -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+  position: absolute;
+  background-color: transparent;
+  padding-bottom: 15px;
+}
+
+ nav li {
+  margin: 0 1rem;
+  list-style-type: none;
+  display: inline-block;
+}   
 
 .headerPhoto { 
-  padding-top: 100px;
+  /* padding-top: 100px; */
+  margin: 15px;
   height: 400px;
   width: 350px;
+}
+
+.hero {
+ height: 524px;
+ width:886px;
+}
+
+.aboutmeStuff {
+  font-size: 20px;
+  margin: 10px;
 }
 
 .projectThings {
@@ -67,11 +123,16 @@ nav {
 }
 
 .iconSkills { 
-  width: 100px;
-  height: 50%;
+  width: 60px;
+  height: 30%;
   /* display: flex;
   flex-direction: row; */
   padding: 10px 20px 10px 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .porfolioText {
@@ -82,16 +143,22 @@ nav {
   margin-bottom: 30px;
 }
 
+.skillsName {
+  font-size: 25px;
+  text-align: center;
+}
+
 .porjectLinks {
 margin: 10px 10px;
 }
 
 .projectH1 {
-  font-size: 30px;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 .footerStuff {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 input#fname {
@@ -143,27 +210,20 @@ input[type=submit] {
   background-color: rgb(169, 135, 121);
   }
 
-  /* #contact-me { 
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-  } */
 
   label { 
     display: none;
-    
   }
 
   .socialLinks {
     text-decoration: none;
     display: flex;
-    flex-direction: rows;
+    flex-direction: row;
     justify-content: center;
     color: black;
     margin-top: 7px;
     margin-bottom: 7px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
   }
 
@@ -176,28 +236,34 @@ input[type=submit] {
     position: absolute;  
     z-index: -1; 
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: url(https://i.imgur.com/JijNmjv.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     overflow: hidden;
   }
 
-  .contactH1 { 
-    text-align: center;
-    position: absolute;
-    left: 45%;
-    text-emphasis: bold;
-    margin-bottom: 60px;
-  }
-
-
-  /* .Contact-me {
-    display: flex;
-    flex-direction: column;
-  } */
-
   .aboutText {
     display: flex;
+    flex-direction: column;
   }
+
+  .portfolioH1, .headerName, .contactHeader {
+    padding-top: 40px;
+    text-emphasis: bold;
+    font-size: 37px;
+  }
+
+  .socialTitle {
+    padding-top: 10px;
+  }
+
+  .frontPage {
+    display: flex;
+  }
+
+  /* MEDIA QUERIES */
+
+  
 

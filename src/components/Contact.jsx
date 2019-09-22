@@ -4,15 +4,15 @@ class Contact extends React.Component {
   render() {
     return (
       <div className='contactStuff'>
-        <h1 className='contactH1'>Contact</h1>
         <div id="hero-photo" />
 
         <main>
           <section id="contact-me">
             <div className="Contact-me">
               <h1 className='contactHeader'>
-                Send me an email
+                Contact
               </h1>
+              <h2 className='contactSub'>Send me an email</h2>
 
               <label htmlFor="firstname">First Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name.." />
@@ -26,6 +26,8 @@ class Contact extends React.Component {
               <form method="post" action="mailto:jascarpentier@gmail.com" >
                 <input type="submit" value="Submit" />
               </form>
+
+              <h2 className='socialTitle'>Follow me here</h2>
               <div className='contactLinks'>
                 <a className="socialLinks" href="https://www.linkedin.com/in/jasmine-carpentier/">Linkedin</a>
                 <a className="socialLinks" href="https://www.instagram.com/jas.carpentier/">Instagram</a>
