@@ -17,7 +17,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className='porjectLinks'>
-          <a className='porfolioText' href='https://www.harbour.surge.sh'>Visit the site</a>
+          <a className='porfolioText' href='https://harbour.surge.sh'>Visit the site</a>
           <a className='porfolioText' href='https://github.com/jascarpentier/harbour'>View on github</a>
         </div>
 
@@ -32,7 +32,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className='porjectLinks'>
-          <a className='porfolioText' href='https://www.cara-mia-redesign.surge.sh'>Visit the site</a>
+          <a className='porfolioText' href='https://cara-mia-redesign.surge.sh'>Visit the site</a>
           <a className='porfolioText' href='https://github.com/mishakessler/cara-mia-redesign'>View on github</a>
         </div>
 
@@ -47,7 +47,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className='porjectLinks'>
-          <a className='porfolioText' href='https://www.spacecadet.surge.sh'>Visit the site</a>
+          <a className='porfolioText' href='https://spacecadet.surge.sh'>Visit the site</a>
           <a className='porfolioText' href='https://github.com/jascarpentier/spacecadet'>View on github</a>
         </div>
 
