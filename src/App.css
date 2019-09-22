@@ -265,5 +265,35 @@ input[type=submit] {
 
   /* MEDIA QUERIES */
 
+  @media only screen
+and (max-width: 900px) {
+
+  .hero {
+    width: 350px;
+    height: 200px;
+  }
+
+  .headerPhoto {
+    width: 250px;
+    height: 350px;
+  }
+
+  .frontPage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutText {
+    display: flex;
+  }
+
+  .projectThings {
+    width: 350px;
+  }
+
+  .projects {
+    width: 350px;
+  }
   
+}
 
